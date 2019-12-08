@@ -1,0 +1,3 @@
+hdfs dfs -mkdir /user/training/october_2016/
+hdfs dfs -put /home/training/Desktop/10_october.csv /user/training/october_2016/
+impala-shell -f tpldata_2016.sql

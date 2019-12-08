@@ -1,0 +1,5 @@
+create  table toy.research(time_vehicle timestamp,vehicle_reg string,city string,latitude_data float,longitude_data float)
+row format delimited
+fields terminated by ','
+location '/user/training/october_2016';
+select * from toy.research limit 20;
